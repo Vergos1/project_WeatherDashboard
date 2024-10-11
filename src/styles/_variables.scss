@@ -1,0 +1,27 @@
+// >>>> default colors <<<<
+$text-color: #ffffff;
+$text-secondary: #676B73;
+
+$primary-color: #060c1a;
+$secondary-color: #0e1421;
+
+
+// >>>> link transitions <<<<
+$transition-default: 0.15s ease-in-out;
+$transition-default-default: 0.25s ease-in-out;
+$transition-link: 0.15s ease-in-out;
+$transition-background-link: background-color 0.25s ease-in-out;
+$transition-border-link: border 0.25s ease-in-out;
+$transition-color-link: color 0.25s ease-in-out;
+$transition-block: all 0.35s ease-in-out;
+$transition-all-link: all 0.25s ease-in-out;
+
+// >>>> z-index <<<<
+$z-index-first: 1;
+$z-index-second: 2;
+$z-index-third: 3;
+$z-index-fourth: 4;
+$z-index-modal: 5;
+$z-index-modal-second: 6;
+$z-index-modal-third: 7;
+$z-index-very-important: 8;

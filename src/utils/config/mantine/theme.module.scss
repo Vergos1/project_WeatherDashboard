@@ -1,0 +1,45 @@
+@import "../../../styles/variables";
+
+// input styles
+.inputInput {
+    color: $text-color;
+    font-weight: 500;
+    background-color: $secondary-color;
+    padding: rem(4px) rem(24px) rem(4px) rem(48px);
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    border-radius: var(--mantine-radius-lg);
+    border: none;
+
+    &::-moz-placeholder {
+        color: $text-secondary;
+        font-weight: 500;
+    }
+
+    &::-ms-input-placeholder {
+        color: $text-secondary;
+        font-weight: 500;
+    }
+
+    &::-webkit-input-placeholder {
+        color: $text-secondary;
+        font-weight: 500;
+    }
+
+    &:-ms-input-placeholder {
+        color: $text-secondary;
+        font-weight: 500;
+    }
+
+    &::placeholder {
+        color: $text-secondary;
+        font-weight: 500;
+    }
+}
+
+.inputSection {
+    &[data-position='left'] {
+        --section-start: 10px;
+    }
+}
